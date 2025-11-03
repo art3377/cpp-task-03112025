@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "halloween_costumes",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "\"\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cl.exe /EHsc halloween_costumes.cpp /Fe:halloween_costumes.exe\""
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$msCompile"
+            ]
+        }   ]
+}
