@@ -42,8 +42,8 @@ int main() {
     int N, M;
     std::cout << "Welcome to the Halloween Costume Calculator!\n";
     std::cout << "Please enter two integers separated by a space:\n";
-    std::cout << "N - number of parties (2 <= N < 100)\n";
-    std::cout << "M - number of costume types (2 <= M < 100)\n";
+    std::cout << "N - number of parties (1 <= N <= 100)\n";
+    std::cout << "M - number of costume types (1 <= M <= 100)\n";
     std::cout << "Example: 7 3\n";
     std::cin >> N >> M;
 
